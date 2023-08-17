@@ -92,7 +92,7 @@
             "top": "394px",
             "bottom": "464px",
             "width": "360px",
-            "height": 254
+            "height": 246
           },
           "widgetId": "widget_84",
           "setting": {
@@ -122,7 +122,7 @@
             "top": "439px",
             "bottom": "509px",
             "width": "360px",
-            "height": 391
+            "height": 735
           },
           "widgetId": "widget_90",
           "setting": {
@@ -298,12 +298,12 @@
             }
           },
           "bbox": {
-            "left": "0.6%",
-            "width": "83px",
-            "height": "58px",
-            "right": "1189px",
-            "top": "10.8%",
-            "bottom": "8px"
+            "left": "1.3%",
+            "width": "69px",
+            "height": "54px",
+            "right": "1194px",
+            "top": "14.9%",
+            "bottom": "9px"
           },
           "widgetId": "widget_102",
           "isPending": false
@@ -548,10 +548,9 @@
     "widget_76": {
       "uri": "widgets/common/text/",
       "version": "1.12.0",
-      "label": "Text 19",
+      "label": "About Header Text",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">About</span></p>",
-        "placeholder": "<p style=\"text-align: center;\">Double click to edit text</p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -562,7 +561,7 @@
     "widget_77": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Block 14",
+      "label": "About Header",
       "config": {
         "space": 10,
         "style": {
@@ -579,29 +578,40 @@
         "DEFAULT": {
           "LARGE": "layout_46"
         }
+      },
+      "style": {
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {}
+        }
       }
     },
     "widget_78": {
       "uri": "widgets/common/text/",
       "version": "1.12.0",
-      "label": "Text 20",
+      "label": "About Content Text",
       "config": {
-        "text": "<p><span style=\"font-size: 16px;\">The Baltimore OEM Mapping Dashboard gives Baltimore OEM the ability to visualize, analyze, and manage emergency-related geospatial datasets. The dashboard includes demographic data, infrastructure data, weather data, and other layers pulled from authoritative government datasets and academic research. Users can also save collections of layers as </span><span style=\"font-size: 16px; color: var(--dark);\">templates</span><span style=\"font-size: 16px;\"> for use in future emergency situations.</span></p><p><br></p><p><span style=\"font-size: 16px;\">The dashboard was developed by Baltimore Digital Services in partnership with Baltimore OEM, BCDOT, BCIT, Baltimore DPW, and Baltimore Forestry. The dashboard also draws heavily from tools such as Open Baltimore, Baltimore 311, RAPT by FEMA, and the Baltimore Evacuation Dashboard developed by BCDOT.</span></p><p><br></p><p><span style=\"font-size: 16px;\">The dashboard was built on ArcGIS Experience Builder Developer Edition using React, Typescript, and CSS.</span></p>",
-        "placeholder": "Double click to edit text",
+        "text": "<p><span style=\"font-size: 16px;\">Baltimore OEM GIS Center is an integrated mapping platform that gives Baltimore OEM the ability to visualize, analyze, and manage emergency-related geospatial datasets. The dashboard includes demographic data, infrastructure data, weather data, and other layers pulled from authoritative government datasets and academic research. Users can also save collections of layers as </span><span style=\"font-size: 16px; color: var(--dark);\">templates</span><span style=\"font-size: 16px;\"> for use in future emergency situations.</span></p><p><br></p><p><span style=\"font-size: 16px;\">The dashboard was developed by Baltimore Digital Services in partnership with Baltimore OEM, BCDOT, BCIT, Baltimore DPW, and Baltimore Forestry. The dashboard also draws heavily from tools such as Open Baltimore, Baltimore 311, RAPT by FEMA, and the Baltimore Evacuation Dashboard developed by BCDOT.</span></p><p><br></p><p><span style=\"font-size: 16px;\">The dashboard was built on ArcGIS Experience Builder Developer Edition using React, Typescript, and CSS.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_78"
+      "id": "widget_78",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill"
+        }
+      }
     },
     "widget_80": {
       "uri": "widgets/common/text/",
       "version": "1.12.0",
-      "label": "Text 21",
+      "label": "Instructions Header Text",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">Instructions</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -612,7 +622,7 @@
     "widget_84": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Block 16",
+      "label": "About Content",
       "config": {
         "space": 10,
         "style": {
@@ -629,12 +639,18 @@
         "DEFAULT": {
           "LARGE": "layout_50"
         }
+      },
+      "style": {
+        "background": {
+          "fillType": "fill",
+          "image": {}
+        }
       }
     },
     "widget_86": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Block 17",
+      "label": "Instructions Header",
       "config": {
         "space": 10,
         "style": {
@@ -656,7 +672,7 @@
     "widget_90": {
       "uri": "widgets/layout/row/",
       "version": "1.12.0",
-      "label": "Block 18",
+      "label": "Instructions Content",
       "config": {
         "space": 10,
         "style": {
@@ -678,10 +694,9 @@
     "widget_91": {
       "uri": "widgets/common/text/",
       "version": "1.12.0",
-      "label": "Text 24",
+      "label": "Instructions Content Text",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Adding Layers﻿</span></p><p><span style=\"font-size: 16px;\">Add layers to the map using the </span><strong style=\"font-size: 16px;\">Add Layers</strong><span style=\"font-size: 16px;\"> section to the left of the app. You can add templates (preloaded groups of layers) to the map all at once in the </span><strong style=\"font-size: 16px;\">Templates</strong><span style=\"font-size: 16px;\"> tab. You can also add individual layers using the search bar or by browsing through categories of layers in the other layer tabs.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Managing Layers</span></p><p><span style=\"font-size: 16px;\">Manage currently added layers using the </span><strong style=\"font-size: 16px;\">Current Layers</strong><span style=\"font-size: 16px;\"> section in the middle of the app. Layers added to the map will automatically appear in this section. Click on each layer item in the list of layers to explore options, such as removing layers, toggling layer visibility, editing layer style, reordering layers, and viewing the map legend.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Saving Templates</span></p><p><span style=\"font-size: 16px;\">To create a new template, add all desired layers to the map, then click the </span><strong style=\"font-size: 16px;\">Save Template</strong><span style=\"font-size: 16px;\"> button at the bottom of the page. The layers will be saved in the current order as they apear in the Current Layers section. Templates will be saved globally and will be seen by all other dashboard users.</span></p>",
-        "placeholder": "<p><span style=\"font-size: 16px;\">Double click to edit text</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Adding Layers</span></p><p><span style=\"font-size: 16px;\">Add layers to the map using the </span><strong style=\"font-size: 16px;\">Layers</strong><span style=\"font-size: 16px;\"> section to the left of the page. Browse categories of layers using the navigation tabs, or search for individual layers using the search dropdown. Click on the + button to add a layer.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Adding Templates</span></p><p><span style=\"font-size: 16px;\">Templates are preloaded groups of layers that can be used to easily display large amounts of information. Add templates to the map using the </span><strong style=\"font-size: 16px;\">Templates</strong><span style=\"font-size: 16px;\"> section in the top left of the page. Search for individual templates using the search dropdown, or click the arrow button to open a more detailed view of the list of layers that each template contains.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Managing Layers</span></p><p><span style=\"font-size: 16px;\">Layers added to the map will appear in the </span><strong style=\"font-size: 16px;\">Current Layers</strong><span style=\"font-size: 16px;\"> section. Click on a list item to toggle the layer visibility, or use the menu options to explore options such as removing a layer, editing a layer's style, reordering a layer, or viewing the legend.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Managing Templates</span></p><p><span style=\"font-size: 16px;\">Added templates will apear in the </span><strong style=\"font-size: 16px;\">Templates</strong><span style=\"font-size: 16px;\"> section below the search dropdown. Click on a template item to remove all layers belonging to a template from the map. If all layers belonging to a template are removed from a map, the template will also be automatically removed from this section.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Saving New Templates</span></p><p><span style=\"font-size: 16px;\">To create a new template, add all desired layers to the map, then click the </span><strong style=\"font-size: 16px;\">Save As New Template</strong><span style=\"font-size: 16px;\"> button at the bottom of the page. The layers will be saved in the current order as they apear in the Current Layers section. Templates will be saved globally and will be seen by all other dashboard users.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Additional Functionalities</span></p><p style=\"text-align: left;\"><span style=\"font-size: 16px;\">The following features are not currently publicly available: adding new layers, deleting layers, or deleting/renaming templates. Please contact Digital Services for help with any of the above items or with any other help requests.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -692,10 +707,9 @@
     "widget_98": {
       "uri": "widgets/common/text/",
       "version": "1.12.0",
-      "label": "Text 26",
+      "label": "Title",
       "config": {
-        "text": "<p><span style=\"font-size: 28px; font-family: &quot;Avenir Next&quot;;\">﻿</span><span style=\"font-size: 28px; background-color: rgb(66, 66, 69); font-family: &quot;Avenir Next&quot;;\">Baltimore OEM Mapping Dashboard</span></p>",
-        "placeholder": "<p><span style=\"font-size: 1.5rem;\">Title</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 28px; color: var(--org-header-color);\">﻿Baltimore OEM GIS Center</span></p>",
         "style": {
           "verticalAlign": "center",
           "wrap": true
@@ -706,7 +720,7 @@
     "widget_100": {
       "uri": "widgets/common/menu/",
       "version": "1.12.0",
-      "label": "Menu 4",
+      "label": "Menu",
       "config": {
         "type": "drawer",
         "menuStyle": "default",
@@ -767,7 +781,7 @@
     "widget_102": {
       "uri": "widgets/common/image/",
       "version": "1.12.0",
-      "label": "Image 3",
+      "label": "OEM Logo",
       "config": {
         "functionConfig": {
           "altText": "",
@@ -814,7 +828,7 @@
         "direction": "HORIZONTAL",
         "collapseSide": "FIRST",
         "overlay": false,
-        "size": "580px",
+        "size": "638px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -885,7 +899,12 @@
       "uri": "widgets/oem-dashboard/",
       "version": "1.11.0",
       "label": "OEM Dashboard",
-      "config": {},
+      "config": {
+        "layerTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/0",
+        "templateTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/1",
+        "categoryTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/2",
+        "templateLayerRelationshipsUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/3"
+      },
       "id": "widget_104",
       "useMapWidgetIds": [
         "widget_1"
@@ -897,13 +916,6 @@
   "sections": {},
   "dialogs": {},
   "dataSources": {
-    "dataSource_1": {
-      "id": "dataSource_1",
-      "type": "WEB_MAP",
-      "sourceLabel": "base map grey",
-      "itemId": "c1738e03d9d14042a4fb054b9f3c68bb",
-      "portalUrl": "https://baltimore.maps.arcgis.com"
-    },
     "dataSource_2": {
       "id": "dataSource_2",
       "type": "FEATURE_LAYER",
@@ -915,7 +927,13 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://baltimore.maps.arcgis.com"
+    "portalUrl": "https://baltimore.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "yxGBFyOWr6xSsMye",
+    "title": "OEM Dashboard v2 A",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {
@@ -935,7 +953,7 @@
       "page_3": []
     }
   ],
-  "timestamp": 1691123423141,
+  "timestamp": 1691993653362,
   "footer": {
     "layout": {
       "LARGE": "layout_2"
@@ -953,6 +971,30 @@
     "height": {
       "LARGE": 74
     },
-    "backgroundColor": "#424245"
+    "backgroundColor": "#2f1c3d",
+    "sticky": true
+  },
+  "customTheme": {
+    "colors": {
+      "primary": "#78479c",
+      "secondary": "#fabe21",
+      "light": "#f0f0f0",
+      "dark": "#1b1b21",
+      "success": "#147633",
+      "danger": "#d60004",
+      "info": "#3d4dff",
+      "warning": "#ec7100"
+    }
+  },
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        "Page",
+        "App"
+      ],
+      "page_3": [
+        "Info"
+      ]
+    }
   }
 }

@@ -15,3 +15,6 @@ Access the deployed app here: https://city-of-baltimore.github.io/oem-gis-center
   The layers will be saved in the current order as they appear in the Current Layers section. Events will be saved globally and will be seen by all other dashboard users.
 - Additional Functionalities: The following features are not currently publicly available: adding new layers, deleting layers, or deleting/renaming events.
   Use the [OEM Database Config app](https://github.com/city-of-baltimore/oem-gis-center-database) to carry out these actions.
+
+## Minor Edits
+Minor code and text edits can usually be made directly by going to the ./cdn/x/config.json file or the ./cdn/x/widgets/oem-dashboard/dist/runtimewidget.js files.

@@ -7,23 +7,21 @@
       "layout": {
         "LARGE": "layout_0"
       },
-      "isDefault": true,
+      "isDefault": false,
       "isVisible": true,
-      "label": "Home",
-      "footer": false,
-      "header": true
+      "label": "Home"
     },
-    "page_3": {
-      "id": "page_3",
+    "page_2": {
+      "id": "page_2",
       "mode": "AUTO_SCROLL",
       "type": "NORMAL",
       "layout": {
-        "LARGE": "layout_44"
+        "LARGE": "layout_9"
       },
-      "isDefault": false,
+      "isDefault": true,
       "isVisible": true,
       "label": "About",
-      "header": true,
+      "header": false,
       "footer": false
     }
   },
@@ -31,161 +29,452 @@
     "layout_0": {
       "type": "FIXED",
       "content": {
-        "5": {
+        "1": {
           "type": "WIDGET",
           "bbox": {
             "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
+            "right": "63.7%",
+            "top": "9.3%",
+            "bottom": "-0.2%",
+            "width": "36.3%",
+            "height": "90.9%"
           },
-          "widgetId": "widget_103",
+          "widgetId": "widget_2",
           "setting": {
             "autoProps": {
-              "left": true,
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "36.3%",
+            "right": "0.0%",
+            "top": "9.4%",
+            "bottom": "0.0%",
+            "width": "63.7%",
+            "height": "90.6%"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "autoProps": {
               "right": false,
+              "left": true,
               "top": true,
               "bottom": false
             }
           }
-        }
-      },
-      "order": [
-        "5"
-      ]
-    },
-    "layout_1": {
-      "type": "FIXED",
-      "label": "Map FixedLayout"
-    },
-    "layout_2": {
-      "type": "FIXED",
-      "setting": {
-        "lockDescendants": true
-      }
-    },
-    "layout_44": {
-      "type": "FLOW",
-      "content": {
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "309px",
-            "right": "669px",
-            "top": "111px",
-            "bottom": "181px",
-            "width": "360px",
-            "height": 90
-          },
-          "widgetId": "widget_77",
-          "setting": {
-            "heightMode": "fixed"
-          }
         },
         "3": {
           "type": "WIDGET",
-          "bbox": {
-            "left": "235px",
-            "right": "595px",
-            "top": "394px",
-            "bottom": "464px",
-            "width": "360px",
-            "height": 246
-          },
-          "widgetId": "widget_84",
           "setting": {
-            "heightMode": "fixed"
-          }
-        },
-        "4": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "578px",
-            "right": "1001px",
-            "top": "326px",
-            "bottom": "394px",
-            "width": "423px",
-            "height": 88
+            "style": {},
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
           },
-          "widgetId": "widget_86",
-          "setting": {
-            "heightMode": "fixed"
-          }
-        },
-        "5": {
-          "type": "WIDGET",
           "bbox": {
-            "left": "376px",
-            "right": "736px",
-            "top": "439px",
-            "bottom": "509px",
-            "width": "360px",
-            "height": 735
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "90.6%",
+            "width": "100.0%",
+            "height": "9.4%"
           },
-          "widgetId": "widget_90",
-          "setting": {
-            "heightMode": "fixed"
-          }
+          "widgetId": "widget_15",
+          "isPending": false
         }
       },
       "order": [
         "1",
-        "3",
-        "4",
-        "5"
+        "2",
+        "3"
       ]
     },
-    "layout_46": {
-      "type": "ROW",
-      "label": "Default",
+    "layout_1": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
       "order": [
-        "1"
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "51.0%",
+            "right": "2.0%",
+            "top": "40.2%",
+            "bottom": "4.3%",
+            "width": "47.0%",
+            "height": "15.00%"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "CUSTOM",
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_7": {
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "1",
+        "2",
+        "3"
       ],
       "content": {
         "1": {
           "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
           "bbox": {
-            "left": 4,
-            "width": 4,
-            "height": "68px"
+            "left": "95.2%",
+            "right": "0.4%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "4.4%",
+            "height": "100.0%"
           },
-          "widgetId": "widget_76"
-        }
-      }
-    },
-    "layout_50": {
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "2"
-      ],
-      "content": {
+          "widgetId": "widget_16",
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM",
+              "height": "CUSTOM",
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
         "2": {
           "type": "WIDGET",
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
-            }
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "heightMode": "ratio",
+            "aspectRatio": 1.05,
+            "vCenter": false,
+            "hCenter": false
           },
           "bbox": {
-            "left": 2,
-            "width": 8,
-            "height": "68px"
+            "left": "1.1%",
+            "right": "95.2%",
+            "top": "14.00%",
+            "bottom": "20.7%",
+            "width": "3.60%",
+            "height": "65.9878%"
           },
-          "widgetId": "widget_78"
+          "widgetId": "widget_17",
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "7.9%",
+            "right": "53.6%",
+            "top": "13.5%",
+            "bottom": "19.0%",
+            "width": "38.5%",
+            "height": "67.5%"
+          },
+          "widgetId": "widget_18",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       }
     },
-    "layout_51": {
+    "layout_8": {
+      "type": "FIXED",
+      "label": "Second"
+    },
+    "layout_9": {
+      "type": "FLOW",
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "isFloating": true,
+            "lockParent": true,
+            "floatingArea": 2,
+            "offsetY": 0
+          },
+          "bbox": {
+            "top": 0,
+            "left": -23,
+            "right": 0,
+            "width": "100%",
+            "height": "63px",
+            "bottom": 0
+          },
+          "widgetId": "widget_23"
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "NaNpx",
+            "top": "0px",
+            "bottom": "NaNpx",
+            "width": "360px",
+            "height": 90.3984375
+          },
+          "widgetId": "widget_30",
+          "setting": {
+            "heightMode": "fixed"
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "345px",
+            "right": "493px",
+            "top": "312px",
+            "bottom": "380px",
+            "width": "148px",
+            "height": 88
+          },
+          "widgetId": "widget_31",
+          "setting": {
+            "heightMode": "fixed"
+          }
+        },
+        "16": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "428px",
+            "right": "852px",
+            "top": "371px",
+            "bottom": "429px",
+            "width": "423px",
+            "height": "88px"
+          },
+          "widgetId": "widget_35",
+          "setting": {
+            "heightMode": "fixed"
+          }
+        },
+        "17": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "217px",
+            "right": "1063px",
+            "top": "238px",
+            "bottom": "562px",
+            "width": "847px",
+            "height": 282
+          },
+          "widgetId": "widget_36",
+          "setting": {
+            "heightMode": "fixed"
+          }
+        },
+        "18": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "334px",
+            "right": "694px",
+            "top": "712px",
+            "bottom": "782px",
+            "width": "360px",
+            "height": 761
+          },
+          "widgetId": "widget_37",
+          "setting": {
+            "heightMode": "fixed"
+          }
+        }
+      },
+      "order": [
+        "3",
+        "5",
+        "6",
+        "17",
+        "16",
+        "18"
+      ]
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "1",
+        "2",
+        "3"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "95.2%",
+            "right": "0.4%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "4.4%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM",
+              "height": "CUSTOM",
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "height": {},
+              "width": "STRETCH"
+            },
+            "heightMode": "ratio",
+            "aspectRatio": 1.05,
+            "vCenter": true,
+            "hCenter": false,
+            "lockParent": true
+          },
+          "bbox": {
+            "left": "2.1%",
+            "right": "94.7%",
+            "top": "50%",
+            "bottom": "14.00%",
+            "width": "3.2%",
+            "height": "65.1%"
+          },
+          "widgetId": "widget_25",
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "10.1%",
+            "right": "51.4%",
+            "top": "19.4%",
+            "bottom": "13.1%",
+            "width": "38.5%",
+            "height": "67.5%"
+          },
+          "widgetId": "widget_26",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": true
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_11": {
+      "type": "FIXED",
+      "label": "Second"
+    },
+    "layout_13": {
+      "type": "ROW",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": "0px",
+            "right": "NaNpx",
+            "top": "NaNpx",
+            "bottom": "NaNpx",
+            "width": "3px",
+            "height": "70px"
+          },
+          "widgetId": "widget_29"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_14": {
+      "type": "ROW",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 5,
+            "width": 2,
+            "height": "68px"
+          },
+          "widgetId": "widget_27"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_15": {
       "type": "ROW",
       "label": "Default",
       "content": {
@@ -198,16 +487,38 @@
           "bbox": {
             "left": 4,
             "width": 4,
-            "height": "68px"
+            "height": "58px"
           },
-          "widgetId": "widget_80"
+          "widgetId": "widget_34"
         }
       },
       "order": [
         "0"
       ]
     },
-    "layout_54": {
+    "layout_16": {
+      "type": "ROW",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 2,
+            "width": 8,
+            "height": "78px"
+          },
+          "widgetId": "widget_32"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_17": {
       "type": "ROW",
       "label": "Default",
       "order": [
@@ -221,288 +532,12 @@
             "width": 8,
             "height": "70px"
           },
-          "widgetId": "widget_91",
+          "widgetId": "widget_38",
           "setting": {
             "heightMode": "fit"
           }
         }
       }
-    },
-    "layout_58": {
-      "type": "FIXED",
-      "order": [
-        "1",
-        "3",
-        "4"
-      ],
-      "content": {
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "94px",
-            "top": "15.5%",
-            "width": "488px",
-            "height": "68.6%",
-            "right": "54.5%",
-            "bottom": "15.9%"
-          },
-          "widgetId": "widget_98",
-          "setting": {
-            "hCenter": false,
-            "vCenter": false,
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true
-            }
-          },
-          "isPending": false
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "96.2%",
-            "top": "28.4%",
-            "width": "2.5%",
-            "height": "43.2%",
-            "right": "17px",
-            "bottom": "21px"
-          },
-          "widgetId": "widget_100",
-          "setting": {
-            "autoProps": {
-              "width": "AUTO",
-              "height": "AUTO",
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "hCenter": false,
-            "vCenter": false
-          },
-          "isPending": false
-        },
-        "4": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
-            }
-          },
-          "bbox": {
-            "left": "1.3%",
-            "width": "69px",
-            "height": "54px",
-            "right": "1194px",
-            "top": "14.9%",
-            "bottom": "9px"
-          },
-          "widgetId": "widget_102",
-          "isPending": false
-        }
-      }
-    },
-    "layout_59": {
-      "type": "FIXED",
-      "content": {
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": 90,
-            "top": "0.0000%",
-            "width": 295,
-            "height": "100.0000%"
-          },
-          "widgetId": "widget_98",
-          "setting": {
-            "hCenter": false,
-            "vCenter": false
-          },
-          "isPending": true
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "72.8802%",
-            "top": "0.0000%",
-            "width": "347px",
-            "height": "100.0000%",
-            "right": "0px"
-          },
-          "widgetId": "widget_100",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true
-            },
-            "hCenter": false
-          },
-          "isPending": true
-        },
-        "4": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "28.8889%",
-            "top": "50%",
-            "width": "83px",
-            "height": "100.0000%",
-            "right": 0
-          },
-          "widgetId": "widget_101",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": true
-          }
-        }
-      },
-      "order": [
-        "1",
-        "3",
-        "4"
-      ]
-    },
-    "layout_60": {
-      "type": "FIXED",
-      "content": {
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": 90,
-            "top": "50%",
-            "width": 295,
-            "height": "100.0000%"
-          },
-          "widgetId": "widget_98",
-          "setting": {
-            "hCenter": false,
-            "vCenter": true,
-            "autoProps": {
-              "top": false,
-              "bottom": true
-            }
-          },
-          "isPending": false
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "72.8802%",
-            "top": "0.0000%",
-            "width": "347px",
-            "height": "100.0000%",
-            "right": "0px"
-          },
-          "widgetId": "widget_100",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true
-            },
-            "hCenter": false
-          },
-          "isPending": true
-        },
-        "4": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "91.2%",
-            "right": "0.0%",
-            "top": "50%",
-            "bottom": "0.0%",
-            "width": "8.8%",
-            "height": "100.0%"
-          },
-          "widgetId": "widget_101",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": true,
-            "hCenter": false
-          },
-          "isPending": false
-        }
-      },
-      "order": [
-        "1",
-        "3",
-        "4"
-      ]
-    },
-    "layout_61": {
-      "type": "FIXED",
-      "label": "First",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "widgetId": "widget_104",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_62": {
-      "type": "FIXED",
-      "label": "Second",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          },
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "widgetId": "widget_1"
-        }
-      },
-      "order": [
-        "0"
-      ]
     }
   },
   "exbVersion": "1.12.0",
@@ -513,7 +548,24 @@
   },
   "template": "blankfullscreen",
   "widgets": {
-    "widget_1": {
+    "widget_2": {
+      "uri": "widgets/oem-dashboard/",
+      "version": "1.11.0",
+      "label": "OEM Dashboard",
+      "config": {
+        "layerTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/0",
+        "templateTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/1",
+        "categoryTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/2",
+        "templateLayerRelationshipsUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/3",
+        "clientId": "3pRp9BFJJxX3XDIq",
+        "clientSecret": "3pRp9BFJJxX3XDIq"
+      },
+      "id": "widget_2",
+      "useMapWidgetIds": [
+        "widget_3"
+      ]
+    },
+    "widget_3": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.12.0",
       "label": "Map",
@@ -522,315 +574,73 @@
           "canZoom": true,
           "canHome": true,
           "canSearch": true,
-          "canNavigation": true,
-          "canLayers": true,
-          "canBaseMap": true,
-          "canScaleBar": true,
-          "canSelect": false,
-          "canSelectState": false,
-          "canMeasure": false,
-          "canFullScreen": true,
-          "canLocate": false,
-          "canCompass": false
+          "canNavigation": true
         },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": null,
-        "initialMapState": null
+        "isUseCustomMapState": false
       },
-      "id": "widget_1",
+      "id": "widget_3",
       "layouts": {
         "MapFixedLayout": {
           "LARGE": "layout_1"
         }
-      },
-      "useDataSources": []
-    },
-    "widget_76": {
-      "uri": "widgets/common/text/",
-      "version": "1.12.0",
-      "label": "About Header Text",
-      "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">About</span></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_76"
-    },
-    "widget_77": {
-      "uri": "widgets/layout/row/",
-      "version": "1.12.0",
-      "label": "About Header",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_77",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_46"
-        }
-      },
-      "style": {
-        "background": {
-          "color": "",
-          "fillType": "fill",
-          "image": {}
-        }
       }
     },
-    "widget_78": {
-      "uri": "widgets/common/text/",
+    "widget_4": {
+      "uri": "widgets/arcgis/draw/",
       "version": "1.12.0",
-      "label": "About Content Text",
+      "label": "Draw",
       "config": {
-        "text": "<p><span style=\"font-size: 16px;\">Baltimore OEM GIS Center is an integrated mapping platform that gives Baltimore OEM the ability to visualize, analyze, and manage emergency-related geospatial datasets. The dashboard includes demographic data, infrastructure data, weather data, and other layers pulled from authoritative government datasets and academic research. Users can also save collections of layers as </span><span style=\"font-size: 16px; color: var(--dark);\">templates</span><span style=\"font-size: 16px;\"> for use in future emergency situations.</span></p><p><br></p><p><span style=\"font-size: 16px;\">The dashboard was developed by Baltimore Digital Services in partnership with Baltimore OEM, BCDOT, BCIT, Baltimore DPW, and Baltimore Forestry. The dashboard also draws heavily from tools such as Open Baltimore, Baltimore 311, RAPT by FEMA, and the Baltimore Evacuation Dashboard developed by BCDOT, BMC, and UMD.</span></p><p><br></p><p><span style=\"font-size: 16px;\">The dashboard was built on ArcGIS Experience Builder Developer Edition using React, Typescript, and CSS.</span></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_78",
-      "style": {
-        "background": {
-          "color": "var(--light)",
-          "fillType": "fill"
-        }
-      }
-    },
-    "widget_80": {
-      "uri": "widgets/common/text/",
-      "version": "1.12.0",
-      "label": "Instructions Header Text",
-      "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">Instructions</span></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_80"
-    },
-    "widget_84": {
-      "uri": "widgets/layout/row/",
-      "version": "1.12.0",
-      "label": "About Content",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_84",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_50"
-        }
-      },
-      "style": {
-        "background": {
-          "fillType": "fill",
-          "image": {}
-        }
-      }
-    },
-    "widget_86": {
-      "uri": "widgets/layout/row/",
-      "version": "1.12.0",
-      "label": "Instructions Header",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_86",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_51"
-        }
-      }
-    },
-    "widget_90": {
-      "uri": "widgets/layout/row/",
-      "version": "1.12.0",
-      "label": "Instructions Content",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_90",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_54"
-        }
-      }
-    },
-    "widget_91": {
-      "uri": "widgets/common/text/",
-      "version": "1.12.0",
-      "label": "Instructions Content Text",
-      "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Adding Layers</span></p><p><span style=\"font-size: 16px;\">Add layers to the map using the </span><strong style=\"font-size: 16px;\">Layers</strong><span style=\"font-size: 16px;\"> section to the left of the page. Browse categories of layers using the navigation tabs, or search for individual layers using the search dropdown. Click on the + button to add a layer.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Adding Events</span></p><p><span style=\"font-size: 16px;\">Events are preloaded groups of layers that can be used to easily display large amounts of information. Add events to the map using the </span><strong style=\"font-size: 16px;\">Events</strong><span style=\"font-size: 16px;\"> section in the top left of the page. Search for individual events using the search dropdown, or click the arrow buttons inside the search dropdown to view what layers belong to events.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Managing Layers</span></p><p><span style=\"font-size: 16px;\">Layers added to the map will appear in the </span><strong style=\"font-size: 16px;\">Current Layers</strong><span style=\"font-size: 16px;\"> section. Click on a list item to toggle the layer visibility, or use the menu options to explore options such as removing a layer, editing a layer's style, reordering a layer, or viewing the legend.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Managing Events</span></p><p><span style=\"font-size: 16px;\">Added events will appear in the </span><strong style=\"font-size: 16px;\">Events</strong><span style=\"font-size: 16px;\"> section below the search dropdown. Click on the X button to remove the event from the map. If all layers belonging to an event are removed from a map, the events will also be automatically removed from this section.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Saving New Events</span></p><p><span style=\"font-size: 16px;\">To create a new events, add all desired layers to the map, then click the </span><strong style=\"font-size: 16px;\">Save As New Event</strong><span style=\"font-size: 16px;\"> button at the bottom of the page. The layers will be saved in the current order as they appear in the Current Layers section. Events will be saved globally and will be seen by all other dashboard users.</span></p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">Additional Functionalities</span></p><p style=\"text-align: left;\"><span style=\"font-size: 16px;\">The following features are not currently publicly available: adding new layers, deleting layers, or deleting/renaming events. Please contact Digital Services for help with any of the above items or with any other help requests.</span></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_91"
-    },
-    "widget_98": {
-      "uri": "widgets/common/text/",
-      "version": "1.12.0",
-      "label": "Title",
-      "config": {
-        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 28px; color: var(--org-header-color);\">﻿Baltimore OEM GIS Center</span></p>",
-        "style": {
-          "verticalAlign": "center",
-          "wrap": true
-        }
-      },
-      "id": "widget_98"
-    },
-    "widget_100": {
-      "uri": "widgets/common/menu/",
-      "version": "1.12.0",
-      "label": "Menu",
-      "config": {
-        "type": "drawer",
-        "menuStyle": "default",
-        "vertical": true,
-        "standard": {
-          "icon": {
-            "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
-            "properties": {
-              "filename": "Menu",
-              "originalName": null,
-              "path": null,
-              "color": "#ffffff",
-              "size": 20,
-              "inlineSvg": true
-            }
-          },
-          "anchor": "right",
-          "submenuMode": "foldable",
-          "textAlign": "center",
-          "gap": "0px"
-        },
-        "advanced": false
-      },
-      "id": "widget_100"
-    },
-    "widget_101": {
-      "uri": "widgets/common/menu/",
-      "version": "1.12.0",
-      "label": "Menu 5",
-      "config": {
-        "type": "drawer",
-        "menuStyle": "default",
-        "vertical": true,
-        "standard": {
-          "icon": {
-            "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
-            "properties": {
-              "filename": null,
-              "originalName": null,
-              "path": null,
-              "color": "#fff",
-              "size": 20,
-              "inlineSvg": false
-            }
-          },
-          "submenuMode": "foldable",
-          "textAlign": "center",
-          "showIcon": false,
-          "showText": true,
-          "iconPosition": "start",
-          "gap": "0px",
-          "anchor": "right"
-        },
-        "advanced": false
-      },
-      "id": "widget_101"
-    },
-    "widget_102": {
-      "uri": "widgets/common/image/",
-      "version": "1.12.0",
-      "label": "OEM Logo",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_92/1691022478232.png",
-            "originalUrl": "${appResourceUrl}/images/widget_92/1691022478232.png",
-            "fileName": "1691022478232.png",
-            "originalName": "OEM.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1691022478232",
-            "isUseCompress": false,
-            "originalWidth": 200,
-            "originalHeight": 209
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_102",
-      "style": {
-        "borderRadius": {
-          "number": [
+        "isDisplayCanvasLayer": false,
+        "arrangement": "Panel",
+        "drawMode": "continuous",
+        "drawingTools": [
+          "point",
+          "polyline",
+          "polygon",
+          "rectangle",
+          "circle"
+        ],
+        "measurementsInfo": {
+          "enableMeasurements": false,
+          "fontsColor": [
             0,
             0,
             0,
-            0
+            1
           ],
-          "unit": "px"
-        }
-      }
+          "fontsSize": 12,
+          "haloColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "haloSize": 2,
+          "decimalPlaces": {
+            "point": 5,
+            "line": 3,
+            "area": 3
+          }
+        },
+        "measurementsUnitsInfos": [],
+        "drawingElevationMode3D": "on-the-ground"
+      },
+      "id": "widget_4",
+      "useMapWidgetIds": [
+        "widget_3"
+      ]
     },
-    "widget_103": {
+    "widget_15": {
       "uri": "widgets/layout/sidebar/",
       "version": "1.12.0",
-      "label": "Sidebar",
+      "label": "Header",
       "config": {
         "direction": "HORIZONTAL",
-        "collapseSide": "FIRST",
+        "collapseSide": "SECOND",
         "overlay": false,
-        "size": "638px",
+        "size": "7px",
         "divider": {
-          "visible": true,
+          "visible": false,
           "lineStyle": {
             "type": "solid",
             "color": "var(--light-500)",
@@ -839,10 +649,10 @@
         },
         "resizable": true,
         "toggleBtn": {
-          "visible": true,
+          "visible": false,
           "iconSource": 0,
-          "icon": "LEFT",
-          "offsetX": 15,
+          "icon": "RIGHT",
+          "offsetX": -15,
           "offsetY": 0,
           "position": "CENTER",
           "iconSize": 14,
@@ -860,8 +670,8 @@
                 "color": "var(--black)"
               },
               "bg": {
-                "useTheme": true,
-                "color": "var(--light)"
+                "useTheme": false,
+                "color": "#2f1c3d"
               }
             },
             "hover": {
@@ -873,64 +683,506 @@
           },
           "expandStyle": {
             "style": {
-              "borderRadius": "0 92px 92px 0"
+              "borderRadius": "92px 0 0 92px"
             }
           },
           "collapseStyle": {
             "style": {
-              "borderRadius": "0 92px 92px 0"
+              "borderRadius": "92px 0 0 92px"
             }
           },
           "template": "default"
         },
-        "defaultState": 1
+        "defaultState": 0,
+        "firstPanelStyle": {
+          "background": {
+            "color": "#2f1c3d",
+            "fillType": "fill",
+            "image": {}
+          }
+        }
       },
-      "id": "widget_103",
+      "id": "widget_15",
       "layouts": {
         "FIRST": {
-          "LARGE": "layout_61"
+          "LARGE": "layout_7"
         },
         "SECOND": {
-          "LARGE": "layout_62"
+          "LARGE": "layout_8"
         }
       }
     },
-    "widget_104": {
-      "uri": "widgets/oem-dashboard/",
-      "version": "1.11.0",
-      "label": "OEM Dashboard",
-      "config": {
-        "layerTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/0",
-        "templateTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/1",
-        "categoryTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/2",
-        "templateLayerRelationshipsUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/3"
+    "widget_16": {
+      "uri": "widgets/common/menu/",
+      "version": "1.12.0",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/common/menu/icon.svg",
+        "properties": {
+          "filename": "Menu",
+          "originalName": null,
+          "path": null,
+          "color": "#ffffff",
+          "size": 16,
+          "inlineSvg": true
+        }
       },
-      "id": "widget_104",
-      "useMapWidgetIds": [
-        "widget_1"
-      ]
+      "label": "Main Menu",
+      "config": {
+        "type": "drawer",
+        "menuStyle": "default",
+        "vertical": true,
+        "advanced": false,
+        "standard": {
+          "icon": {
+            "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
+            "properties": {
+              "filename": "Menu",
+              "originalName": null,
+              "path": null,
+              "color": "#ffffff",
+              "size": 25,
+              "inlineSvg": true
+            }
+          },
+          "anchor": "right",
+          "submenuMode": "foldable",
+          "textAlign": "center",
+          "gap": "0px",
+          "showIcon": false
+        }
+      },
+      "id": "widget_16",
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        },
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_17": {
+      "uri": "widgets/common/image/",
+      "version": "1.12.0",
+      "label": "Header Logo",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1696967511532.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1696967511532.png",
+            "fileName": "1696967511532.png",
+            "originalName": "1691022478232.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1696967511532",
+            "isUseCompress": false,
+            "originalWidth": 200,
+            "originalHeight": 209,
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0V0Z",
+              "cropShape": "square"
+            }
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17"
+    },
+    "widget_18": {
+      "uri": "widgets/common/text/",
+      "version": "1.12.0",
+      "label": "Header Title",
+      "config": {
+        "text": "<p><span style=\"color: var(--light); font-size: 36px;\">Baltimore OEM GIS Center</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_18"
+    },
+    "widget_23": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.12.0",
+      "label": "Sidebar 4",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "7px",
+        "divider": {
+          "visible": false,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": false,
+          "iconSource": 0,
+          "icon": "DOWN",
+          "offsetX": 0,
+          "offsetY": -15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 60,
+          "height": 15,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": false,
+                "color": "#2f1c3d"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 92px 0 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 92px 0 0"
+            }
+          },
+          "template": "default"
+        },
+        "defaultState": 0,
+        "firstPanelStyle": {
+          "background": {
+            "color": "#2f1c3d",
+            "fillType": "fill",
+            "image": {}
+          }
+        }
+      },
+      "id": "widget_23",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_10"
+        },
+        "SECOND": {
+          "LARGE": "layout_11"
+        }
+      }
+    },
+    "widget_24": {
+      "uri": "widgets/common/menu/",
+      "version": "1.12.0",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/common/menu/icon.svg",
+        "properties": {
+          "filename": "Menu",
+          "originalName": null,
+          "path": null,
+          "color": "#ffffff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Main Menu",
+      "config": {
+        "type": "drawer",
+        "menuStyle": "default",
+        "vertical": true,
+        "advanced": false,
+        "standard": {
+          "icon": {
+            "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
+            "properties": {
+              "filename": "Menu",
+              "originalName": null,
+              "path": null,
+              "color": "#ffffff",
+              "size": 25,
+              "inlineSvg": true
+            }
+          },
+          "anchor": "right",
+          "submenuMode": "foldable",
+          "textAlign": "center",
+          "gap": "0px",
+          "showIcon": false
+        }
+      },
+      "id": "widget_24",
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        },
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_25": {
+      "uri": "widgets/common/image/",
+      "version": "1.12.0",
+      "label": "Header Logo",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1696967511532.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1696967511532.png",
+            "fileName": "1696967511532.png",
+            "originalName": "1691022478232.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1696967511532",
+            "isUseCompress": false,
+            "originalWidth": 200,
+            "originalHeight": 209,
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0V0Z",
+              "cropShape": "square"
+            }
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_25"
+    },
+    "widget_26": {
+      "uri": "widgets/common/text/",
+      "version": "1.12.0",
+      "label": "Header Title",
+      "config": {
+        "text": "<p><span style=\"font-size: 28px; color: var(--light);\">Baltimore OEM GIS Center</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": false
+        }
+      },
+      "id": "widget_26"
+    },
+    "widget_27": {
+      "uri": "widgets/common/text/",
+      "version": "1.12.0",
+      "label": "About Title",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">﻿About</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": false
+        }
+      },
+      "id": "widget_27"
+    },
+    "widget_29": {
+      "uri": "widgets/common/text/",
+      "version": "1.12.0",
+      "label": "Blank",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">﻿About</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": false
+        }
+      },
+      "id": "widget_29"
+    },
+    "widget_30": {
+      "uri": "widgets/layout/row/",
+      "version": "1.12.0",
+      "label": "Block 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_30",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_13"
+        }
+      }
+    },
+    "widget_31": {
+      "uri": "widgets/layout/row/",
+      "version": "1.12.0",
+      "label": "Block 3",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_31",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_14"
+        }
+      }
+    },
+    "widget_32": {
+      "uri": "widgets/common/text/",
+      "version": "1.12.0",
+      "label": "About Text",
+      "config": {
+        "text": "<p style=\"text-align: left;\"><br></p><p style=\"line-height: 1.42; text-align: left;\"><span style=\"font-size: 16px;\">Baltimore OEM GIS Center is an integrated mapping platform that gives Baltimore OEM the ability to visualize, analyze, and manage emergency-related geospatial datasets. The dashboard includes demographic data, infrastructure data, weather data, and other layers pulled from authoritative government datasets and academic research. Users can also save collections of layers as </span><span style=\"font-size: 16px; color: var(--dark);\">templates</span><span style=\"font-size: 16px;\"> for use in future emergency situations.</span></p><p style=\"line-height: 1.42; text-align: left;\"><br></p><p style=\"line-height: 1.42; text-align: left;\"><span style=\"font-size: 16px;\">The dashboard was developed by Baltimore Digital Services in partnership with Baltimore OEM, BCDOT, BCIT, Baltimore DPW, and Baltimore Forestry. The dashboard also draws heavily from tools such as Open Baltimore, Baltimore 311, RAPT by FEMA, and the Baltimore Evacuation Dashboard developed by BCDOT, BMC, and UMD.</span></p><p style=\"line-height: 1.42; text-align: left;\"><br></p><p style=\"line-height: 1.42; text-align: left;\"><span style=\"font-size: 16px;\">The dashboard was built on ArcGIS Experience Builder Developer Edition using React, Typescript, and CSS.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_32"
+    },
+    "widget_34": {
+      "uri": "widgets/common/text/",
+      "version": "1.12.0",
+      "label": "Instruction Title",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">Instructions</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_34"
+    },
+    "widget_35": {
+      "uri": "widgets/layout/row/",
+      "version": "1.12.0",
+      "label": "Block 4",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_35",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_15"
+        }
+      }
+    },
+    "widget_36": {
+      "uri": "widgets/layout/row/",
+      "version": "1.12.0",
+      "label": "Block 5",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_36",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_16"
+        }
+      }
+    },
+    "widget_37": {
+      "uri": "widgets/layout/row/",
+      "version": "1.12.0",
+      "label": "Block 6",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_37",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_17"
+        }
+      }
+    },
+    "widget_38": {
+      "uri": "widgets/common/text/",
+      "version": "1.12.0",
+      "label": "Instruction Text",
+      "config": {
+        "text": "<p style=\"line-height: 1.42; text-align: center;\"><span style=\"font-size: 24px;\">Adding Layers</span></p><p style=\"line-height: 1.42;\"><span style=\"font-size: 16px;\">Add layers to the map using the </span><strong style=\"font-size: 16px;\">Layers</strong><span style=\"font-size: 16px;\"> section to the left of the page. Browse categories of layers using the navigation tabs, or search for individual layers using the search dropdown. Click on the + button to add a layer.</span></p><p style=\"line-height: 1.42;\"><br></p><p style=\"line-height: 1.42; text-align: center;\"><span style=\"font-size: 24px;\">Adding Events</span></p><p style=\"line-height: 1.42;\"><span style=\"font-size: 16px;\">Events are preloaded groups of layers that can be used to easily display large amounts of information. Add events to the map using the </span><strong style=\"font-size: 16px;\">Events</strong><span style=\"font-size: 16px;\"> section in the top left of the page. Search for individual events using the search dropdown, or click the arrow buttons inside the search dropdown to view what layers belong to events.</span></p><p style=\"line-height: 1.42;\"><br></p><p style=\"line-height: 1.42; text-align: center;\"><span style=\"font-size: 24px;\">Managing Layers</span></p><p style=\"line-height: 1.42;\"><span style=\"font-size: 16px;\">Layers added to the map will appear in the </span><strong style=\"font-size: 16px;\">Current Layers</strong><span style=\"font-size: 16px;\"> section. Click on a list item to toggle the layer visibility, or use the menu options to explore options such as removing a layer, editing a layer's style, reordering a layer, or viewing the legend.</span></p><p style=\"line-height: 1.42;\"><br></p><p style=\"line-height: 1.42; text-align: center;\"><span style=\"font-size: 24px;\">Managing Events</span></p><p style=\"line-height: 1.42;\"><span style=\"font-size: 16px;\">Added events will appear in the </span><strong style=\"font-size: 16px;\">Events</strong><span style=\"font-size: 16px;\"> section below the search dropdown. Click on the X button to remove the event from the map. If all layers belonging to an event are removed from a map, the events will also be automatically removed from this section.</span></p><p style=\"line-height: 1.42;\"><br></p><p style=\"line-height: 1.42; text-align: center;\"><span style=\"font-size: 24px;\">Saving New Events</span></p><p style=\"line-height: 1.42;\"><span style=\"font-size: 16px;\">To create a new events, add all desired layers to the map, then click the </span><strong style=\"font-size: 16px;\">Save As New Event</strong><span style=\"font-size: 16px;\"> button at the bottom of the page. The layers will be saved in the current order as they appear in the Current Layers section. Events will be saved globally and will be seen by all other dashboard users.</span></p><p style=\"line-height: 1.42;\"><br></p><p style=\"line-height: 1.42; text-align: center;\"><span style=\"font-size: 24px;\">Additional Functionalities</span></p><p style=\"line-height: 1.42;\"><span style=\"font-size: 16px;\">The following features are not currently publicly available: adding new layers, deleting layers, or deleting/renaming events. Please contact Digital Services for help with any of the above items or with any other help requests.</span></p><p style=\"line-height: 1.42;\"><br></p><p><br></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_38"
     }
   },
   "widgetsManifest": {},
   "views": {},
   "sections": {},
   "dialogs": {},
-  "dataSources": {
-    "dataSource_2": {
-      "id": "dataSource_2",
-      "type": "FEATURE_LAYER",
-      "url": "https://egis.baltimorecity.gov/egis/rest/services/GeoSpatialized_Tables/ServiceRequest_311/FeatureServer/0",
-      "layerId": "0",
-      "geometryType": "esriGeometryPoint",
-      "sourceLabel": "Customer_Service_Request311_2021_Present"
-    }
-  },
+  "dataSources": {},
   "messageConfigs": {},
   "attributes": {
     "portalUrl": "https://baltimore.maps.arcgis.com",
     "isWebTier": false,
-    "clientId": "E7VUJCICsSSEvBlI",
-    "title": "Baltimore OEM GIS Center",
+    "clientId": "",
+    "title": "OEM Dashboard v3",
     "description": "",
     "type": "Web Experience",
     "thumbnail": null
@@ -950,51 +1202,66 @@
       "page_0": []
     },
     {
-      "page_3": []
+      "page_2": []
     }
   ],
-  "timestamp": 1692310558364,
-  "footer": {
-    "layout": {
-      "LARGE": "layout_2"
-    },
-    "height": {
-      "LARGE": 75
-    }
-  },
-  "header": {
-    "layout": {
-      "LARGE": "layout_58",
-      "SMALL": "layout_59",
-      "MEDIUM": "layout_60"
-    },
-    "height": {
-      "LARGE": 74
-    },
-    "backgroundColor": "#2f1c3d",
-    "sticky": true
-  },
+  "timestamp": 1697117679327,
   "customTheme": {
     "colors": {
-      "primary": "#78479c",
-      "secondary": "#fabe21",
-      "light": "#f0f0f0",
-      "dark": "#1b1b21",
-      "success": "#147633",
-      "danger": "#d60004",
-      "info": "#3d4dff",
-      "warning": "#ec7100"
+      "primary": "#442b57",
+      "secondary": "#ffd11c",
+      "light": "#fff",
+      "dark": "#2d3235",
+      "success": "#00cca5",
+      "info": "#09acf8",
+      "warning": "#ffab21",
+      "danger": "#f6146f"
+    },
+    "typography": {
+      "fontSizeRoot": "100%"
+    }
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": null,
+      "name": "route",
+      "url": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+      "source": "org"
+    },
+    "utility_2": {
+      "id": "utility_2",
+      "type": "ROUTING",
+      "source": "custom",
+      "url": "https://route-api.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World\n",
+      "label": "Route_World\n"
+    },
+    "utility_3": {
+      "id": "utility_3",
+      "type": null,
+      "name": "geocode",
+      "url": "https://geodata.md.gov/imap/rest/services/GeocodeServices/MD_CompositeLocator/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "singleLineFieldName": "SingleLine",
+        "suggest": true,
+        "name": "Baltimore City Address Locator",
+        "placeholder": "Find and address or place",
+        "placefinding": true,
+        "batch": true,
+        "zoomScale": 10000
+      },
+      "taskName": "Baltimore City Address Locator",
+      "index": 0
     }
   },
   "historyLabels": {
     "pages": {
       "page_0": [
-        "Page",
-        "App",
-        "Map"
+        "Page"
       ],
-      "page_3": [
-        "Info"
+      "page_2": [
+        "Page"
       ]
     }
   }

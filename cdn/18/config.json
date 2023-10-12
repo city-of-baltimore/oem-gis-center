@@ -7,7 +7,7 @@
       "layout": {
         "LARGE": "layout_0"
       },
-      "isDefault": false,
+      "isDefault": true,
       "isVisible": true,
       "label": "Home"
     },
@@ -18,7 +18,7 @@
       "layout": {
         "LARGE": "layout_9"
       },
-      "isDefault": true,
+      "isDefault": false,
       "isVisible": true,
       "label": "About",
       "header": false,
@@ -192,8 +192,8 @@
             "right": "95.2%",
             "top": "14.00%",
             "bottom": "20.7%",
-            "width": "3.60%",
-            "height": "65.9878%"
+            "width": "3.40%",
+            "height": "61.6843%"
           },
           "widgetId": "widget_17",
           "isPending": false
@@ -1205,7 +1205,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1697117679327,
+  "timestamp": 1697129529265,
   "customTheme": {
     "colors": {
       "primary": "#442b57",
@@ -1218,7 +1218,7 @@
       "danger": "#f6146f"
     },
     "typography": {
-      "fontSizeRoot": "100%"
+      "fontSizeRoot": "125%"
     }
   },
   "utilities": {

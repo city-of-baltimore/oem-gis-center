@@ -548,7 +548,8 @@
       "order": [
         "0",
         "5",
-        "6"
+        "6",
+        "7"
       ],
       "content": {
         "0": {
@@ -592,13 +593,44 @@
             "height": "460px"
           },
           "widgetId": "widget_47"
+        },
+        "7": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "NaNpx",
+            "right": "NaNpx",
+            "top": "NaNpx",
+            "bottom": "NaNpx",
+            "width": "24px",
+            "height": "24px"
+          },
+          "widgetId": "widget_48",
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO"
+            }
+          }
         }
       }
     },
     "layout_19": {
       "label": "Open widget layout",
-      "content": {},
-      "order": []
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_48",
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.12.0",
@@ -2063,6 +2095,94 @@
           "utilityId": "utility_5"
         }
       ]
+    },
+    "widget_48": {
+      "uri": "widgets/common/share/",
+      "version": "1.12.0",
+      "label": "Share",
+      "config": {
+        "uiMode": "POPUP",
+        "popup": {
+          "icon": "",
+          "items": [
+            {
+              "id": "embed",
+              "enable": false
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "facebook",
+              "enable": false
+            },
+            {
+              "id": "twitter",
+              "enable": false
+            },
+            {
+              "id": "pinterest",
+              "enable": false
+            },
+            {
+              "id": "linkedin",
+              "enable": false
+            }
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            {
+              "id": "facebook",
+              "enable": true
+            },
+            {
+              "id": "twitter",
+              "enable": true
+            },
+            {
+              "id": "pinterest",
+              "enable": true
+            },
+            {
+              "id": "linkedin",
+              "enable": true
+            },
+            {
+              "id": "embed",
+              "enable": true
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "sharelink",
+              "enable": true
+            }
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": false,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "",
+            "size": "default",
+            "labelColor": "var(--dark)"
+          }
+        }
+      },
+      "id": "widget_48"
     }
   },
   "widgetsManifest": {},
@@ -2663,7 +2783,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1697463976769,
+  "timestamp": 1700084206344,
   "customTheme": {
     "colors": {
       "primary": "#442b57",

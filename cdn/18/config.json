@@ -2758,7 +2758,7 @@
   "messageConfigs": {},
   "attributes": {
     "portalUrl": "https://baltimore.maps.arcgis.com",
-    "isWebTier": "",
+    "isWebTier": false,
     "clientId": "E7VUJCICsSSEvBlI",
     "title": "OEM Dashboard v3",
     "description": "",

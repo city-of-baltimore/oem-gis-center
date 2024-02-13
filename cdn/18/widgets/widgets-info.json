@@ -7444,10 +7444,10 @@
     "group": 9
   },
   {
-    "name": "oem-dashboard",
+    "name": "scenario-dashboard",
     "manifest": {
-      "name": "oem-dashboard",
-      "label": "OEM Dashboard",
+      "name": "scenario-dashboard",
+      "label": "Scenario Dashboard",
       "type": "widget",
       "version": "1.11.0",
       "dependency": [
@@ -7455,10 +7455,12 @@
       ],
       "exbVersion": "1.11.0",
       "author": "Andrew Shaw",
-      "description": "OEM dashboard widget that allows users to manage templates of preset layer groups",
+      "description": "Scenario dashboard widget that allows users to manage templates of preset layer groups",
       "copyright": "",
       "license": "",
-      "properties": {},
+      "properties": {
+        "hasConfig": false
+      },
       "translatedLocales": [
         "en"
       ],
@@ -7469,16 +7471,16 @@
     },
     "i18nLabel": {},
     "i18nDescription": {},
-    "uri": "widgets/oem-dashboard/",
-    "icon": "widgets/oem-dashboard/icon.png",
+    "uri": "widgets/scenario-dashboard/",
+    "icon": "widgets/scenario-dashboard/icon.png",
     "order": 700,
     "group": 7
   },
   {
-    "name": "oem-database-config",
+    "name": "scenario-database-config",
     "manifest": {
-      "name": "oem-database-config",
-      "label": "OEM Database Config",
+      "name": "scenario-database-config",
+      "label": "Scenario Database Config",
       "type": "widget",
       "version": "1.11.0",
       "dependency": [
@@ -7486,10 +7488,12 @@
       ],
       "exbVersion": "1.11.0",
       "author": "Andrew Shaw",
-      "description": "Add layers, delete layers, or delete templates from OEM database.",
+      "description": "Add layers, delete layers, or delete templates from Scenario database.",
       "copyright": "",
       "license": "",
-      "properties": {},
+      "properties": {
+        "hasConfig": false
+      },
       "translatedLocales": [
         "en"
       ],
@@ -7500,8 +7504,8 @@
     },
     "i18nLabel": {},
     "i18nDescription": {},
-    "uri": "widgets/oem-database-config/",
-    "icon": "widgets/oem-database-config/icon.png",
+    "uri": "widgets/scenario-database-config/",
+    "icon": "widgets/scenario-database-config/icon.png",
     "order": 700,
     "group": 7
   }

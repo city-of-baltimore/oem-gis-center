@@ -616,21 +616,8 @@
     },
     "layout_19": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_48",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     }
   },
   "exbVersion": "1.12.0",
@@ -642,16 +629,15 @@
   "template": "blankfullscreen",
   "widgets": {
     "widget_2": {
-      "uri": "widgets/oem-dashboard/",
+      "uri": "widgets/scenario-dashboard/",
       "version": "1.11.0",
-      "label": "OEM Dashboard",
+      "label": "Scenario Dashboard",
       "config": {
+        "appId": "eS2vUdIZbHaVOrDz",
         "layerTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/0",
         "templateTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/1",
         "categoryTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/2",
-        "templateLayerRelationshipsUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/3",
-        "clientId": "3pRp9BFJJxX3XDIq",
-        "clientSecret": "3pRp9BFJJxX3XDIq"
+        "templateLayerRelationshipsUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/3"
       },
       "id": "widget_2",
       "useMapWidgetIds": [
@@ -2783,7 +2769,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1700084206344,
+  "timestamp": 1701356873445,
   "customTheme": {
     "colors": {
       "primary": "#442b57",

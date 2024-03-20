@@ -7458,9 +7458,7 @@
       "description": "Scenario dashboard widget that allows users to manage templates of preset layer groups",
       "copyright": "",
       "license": "",
-      "properties": {
-        "hasConfig": false
-      },
+      "properties": {},
       "translatedLocales": [
         "en"
       ],
@@ -7491,9 +7489,7 @@
       "description": "Add layers, delete layers, or delete templates from Scenario database.",
       "copyright": "",
       "license": "",
-      "properties": {
-        "hasConfig": false
-      },
+      "properties": {},
       "translatedLocales": [
         "en"
       ],
